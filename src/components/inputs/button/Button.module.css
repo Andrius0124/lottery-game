@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  user-select: none;
+
+  background: linear-gradient(
+    var(--angle),
+    var(--firstGradientColor),
+    var(--secondGradientColor)
+  );
+  box-shadow: var(--positionX) var(--positionY) var(--blur) var(--darkColor),
+    var(--positionXOpposite) var(--positionYOpposite) var(--blur)
+      var(--lightColor);
+}
+.button:active {
+  box-shadow: inset var(--positionX) var(--positionY) var(--blur)
+      var(--darkColor),
+    inset var(--positionXOpposite) var(--positionYOpposite) var(--blur)
+      var(--lightColor);
+}
+.primary {
+  width: 300px;
+  height: 100px;
+  font-size: 1.5em;
+}
+.secondary {
+  width: 150px;
+  font-size: 1em;
+  height: 50px;
+}

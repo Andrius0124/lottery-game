@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 30px;
+  text-align: left;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(var(--angle)),
+    color-stop(var(--firstGradientColor)),
+    to(var(--secondGradientColor))
+  );
+  background: linear-gradient(
+    var(--angle),
+    var(--firstGradientColor),
+    var(--secondGradientColor)
+  );
+  box-shadow: var(--positionX) var(--positionY) var(--blur) var(--darkColor),
+    var(--positionXOpposite) var(--positionYOpposite) var(--blur)
+      var(--lightColor);
+}

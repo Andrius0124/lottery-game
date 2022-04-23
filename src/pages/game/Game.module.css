@@ -1,0 +1,33 @@
+.layout {
+  display: grid;
+  grid-template-columns: 0.7fr 1.5fr 0.8fr;
+  grid-template-rows: 1.3fr 0.7fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Rules Game Score"
+    "Rules Controlls Score";
+}
+.rules {
+  margin: 20px;
+  grid-area: Rules;
+}
+.game {
+  width: 700px;
+  margin: auto;
+  grid-area: Game;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controlls {
+  width: 700px;
+  margin: auto;
+  grid-area: Controlls;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score {
+  margin: 20px;
+  grid-area: Score;
+}

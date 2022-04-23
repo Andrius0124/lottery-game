@@ -1,0 +1,10 @@
+.numberInput{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+.error{
+    color: red;
+}

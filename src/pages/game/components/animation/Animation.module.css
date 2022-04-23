@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  width: 700px;
+  height: 500px;
+}
+.numbersOverlay{
+  position: absolute;
+  top: 208px;
+  display: flex;
+  left: 72px;
+  
+}
+h1{
+  color:black;
+  width: 39px;
+  margin-right: 59px;
+}
+canvas{
+  
+  display: block;
+  background: url(/src/assets/istockphoto-465906398-640x640.jpg) no-repeat center center;
+  background-size: cover;
+}
